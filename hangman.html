@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>My Hangman Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="hangman.css">
+
+<!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div id="wrapper" class="jumbotron text-center">
+        <div class="container">
+          <h1>HANGMAN</h1>
+          <h3>Star Wars</h3>
+          <p>Press any key to get started!</p>
+        </div>
+      </div>
+
+<div class="container main_section">
+  <div class="row align-items-center">
+    <div class="col-12 text-center">
+      <!-- The div where our band image will be shown. -->
+      <div id="band-div"><img class="rounded" src="images/starwars.jpg" alt="hangman Star Wars game"></div>
+        <div id="game-section text-center"><div>
+          <h3 class="section-title">Wins</h3>
+            <!-- The div where our wins will be shown. -->
+          <div id="wins"></div>
+          <div id="current-word-section">
+            <h3 class="section-title">Current Word</h3>
+          <!-- The div where our current word (and guessing progress) will be shown. -->
+          <div id="current-word"></div>
+          <div id="guesses-remaining-section">
+            <h3 class="section-title">Number of Guesses Remaining</h3>
+          <!-- The div where our remaining guesses will be shown. -->
+          <div id="guesses-remaining"></div>
+          <div id="guessed-letters-section">
+            <h4 class="section-title">Letters Already Guessed</h4>
+            <!-- The div where our guesses letters will be shown. -->
+          <div id="guessed-letters"></div>
+    </div>
+  </div>
+</div>
+    <!-- Footer -->
+
+<footer class="align-items-center">
+  Star Wars Hangman | Charronda King 2018
+</footer>
+
+    <!-- Linking to our JavaScript file. -->
+    <script type="text/javascript" src="hangmanGame.js"></script>
+  </body>
+</html>

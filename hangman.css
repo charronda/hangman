@@ -1,0 +1,34 @@
+
+.jumbotron {
+  height: 10em;
+  margin-top: 1em;
+  padding: 1em;
+  background-color: #062831; opacity: 0.3;
+  color: #FDE273;
+}
+
+body {
+  background-image: url("images/space.jpg");
+  background-color: #062831
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 0;
+}
+
+.main_section {
+    width: 45em;
+    height: 28em;
+    padding-right: 55px;
+    padding-left: 55px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -2em;
+    margin-bottom: 2em;
+    background-color: #D8D8C3;
+  }
+
+  footer {
+    height: 5em;
+    margin-top: 7em;
+    color: #FDE273;
+  }
